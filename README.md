@@ -30,7 +30,7 @@
 
 The starter code will be pushed to Github by your instructor. Check for a link in slack or review the repository link [here](https://git.generalassemb.ly/SF-SEI-8/CatCollector). Feel free to pull down the latest changes from this repo.
 
-Last night a new feature was added to the app - we can now create cats without the Admin! We'll use the code powering this feature as an example in the functionality we're demonstrating today.
+Last night a new feature was added to the app - we can now create cats without the admin panel! We'll use the code powering this feature as an example in the functionality we're demonstrating today.
 
 ## Get Ready to Code
 
