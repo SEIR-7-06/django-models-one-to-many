@@ -30,9 +30,7 @@
 
 The starter code will be pushed to Github by your instructor. Check for a link in slack or review the repository link [here](https://git.generalassemb.ly/SF-SEI-8/CatCollector). Feel free to pull down the latest changes from this repo.
 
-Here are some features that were added to the starter code that we'll review:
-* `detail` view for cats - a template, url, and view function were added to create this feature and the instructions are available at the end of yesterday's lesson [here](https://git.generalassemb.ly/SF-SEI-8/django-data-models#adding-a-cat-details-page).
-* a `new_cat` feature - we can now create cats within the app! We'll use the code powering this feature as an example in the functionality we're demonstrating today.
+Last night a new feature was added to the app - we can now create cats without the Admin! We'll use the code powering this feature as an example in the functionality we're demonstrating today.
 
 ## Get Ready to Code
 
