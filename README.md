@@ -395,7 +395,7 @@ Let's open it and add this code:
 from django.forms import ModelForm
 from .models import Feeding
 
-class FeedingForm(ModelForm):
+class FeedingForm(forms.ModelForm):
   class Meta:
     model = Feeding
     fields = ['date', 'meal']
