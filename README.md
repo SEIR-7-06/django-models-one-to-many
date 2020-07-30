@@ -391,7 +391,7 @@ $ touch main_app/forms.py
 Let's open it and add this code:
 
 ```python
-from django.forms import ModelForm
+from django import forms
 from .models import Feeding
 
 class FeedingForm(forms.ModelForm):
