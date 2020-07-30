@@ -27,8 +27,7 @@
 11. Bonus: Adding a Custom Method to Check the Feeding Status
 
 ## Review the Starter Code
-
-The starter code will be pushed to Github by your instructor. Check for a link in slack or review the repository link [here](https://git.generalassemb.ly/SF-SEI-8/CatCollector). Feel free to pull down the latest changes from this repo.
+Feel free to use your own code from the previous lesson or pull down the latest code on the [CatCollector](https://git.generalassemb.ly/r-sei-12/catcollector) repo.
 
 Last night a new feature was added to the app - we can now create cats without the admin panel! We'll use the code powering this feature as an example in the functionality we're demonstrating today.
 
