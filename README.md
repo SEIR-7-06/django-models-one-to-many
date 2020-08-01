@@ -510,7 +510,7 @@ Now let's add the JS to inside of the `<script>` tags to initialize the date-pic
 </div>
 
 <script>
-  var dateEl = document.getElementById('id_date');
+  const dateEl = document.getElementById('id_date');
   M.Datepicker.init(dateEl, {
     format: 'yyyy-mm-dd',
     defaultDate: new Date(),
@@ -543,7 +543,7 @@ It doesn't require any options, just select it and init it:
 </div>
 
 <script>
-  var dateEl = document.getElementById('id_date');
+  const dateEl = document.getElementById('id_date');
   M.Datepicker.init(dateEl, {
     format: 'yyyy-mm-dd',
     defaultDate: new Date(),
@@ -552,7 +552,7 @@ It doesn't require any options, just select it and init it:
   });
 
   // add additional JS to initialize select below
-  var selectEl = document.getElementById('id_meal');
+  const selectEl = document.getElementById('id_meal');
   M.FormSelect.init(selectEl);
 </script>
 {% endblock %}
