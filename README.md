@@ -27,8 +27,7 @@
 11. Bonus: Adding a Custom Method to Check the Feeding Status
 
 ## Review the Starter Code
-
-The starter code will be pushed to Github by your instructor. Check for a link in slack or review the repository link [here](https://git.generalassemb.ly/SF-SEI-8/CatCollector). Feel free to pull down the latest changes from this repo.
+Feel free to use your own code from the previous lesson or pull down the latest code on the [CatCollector](https://git.generalassemb.ly/r-sei-12/catcollector) repo.
 
 Last night a new feature was added to the app - we can now create cats without the admin panel! We'll use the code powering this feature as an example in the functionality we're demonstrating today.
 
@@ -392,7 +391,7 @@ $ touch main_app/forms.py
 Let's open it and add this code:
 
 ```python
-from django.forms import ModelForm
+from django import forms
 from .models import Feeding
 
 class FeedingForm(forms.ModelForm):
@@ -511,7 +510,7 @@ Now let's add the JS to inside of the `<script>` tags to initialize the date-pic
 </div>
 
 <script>
-  var dateEl = document.getElementById('id_date');
+  const dateEl = document.getElementById('id_date');
   M.Datepicker.init(dateEl, {
     format: 'yyyy-mm-dd',
     defaultDate: new Date(),
@@ -544,7 +543,7 @@ It doesn't require any options, just select it and init it:
 </div>
 
 <script>
-  var dateEl = document.getElementById('id_date');
+  const dateEl = document.getElementById('id_date');
   M.Datepicker.init(dateEl, {
     format: 'yyyy-mm-dd',
     defaultDate: new Date(),
@@ -553,7 +552,7 @@ It doesn't require any options, just select it and init it:
   });
 
   // add additional JS to initialize select below
-  var selectEl = document.getElementById('id_meal');
+  const selectEl = document.getElementById('id_meal');
   M.FormSelect.init(selectEl);
 </script>
 {% endblock %}
